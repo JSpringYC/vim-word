@@ -21,7 +21,7 @@ endfunc
 " ********************
 "
 " 命令导出: WordCountLine
-command -bar WordCountLine word#WordCountLine()
+command -bar WordCountLine call word#WordCountLine()
 "
 " 命令导出: WordCountAll
-command -bar WordCountAll word#WordCountAll()
+command -bar WordCountAll call word#WordCountAll()
